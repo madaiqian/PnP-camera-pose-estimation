@@ -1,0 +1,33 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% How to use: 
+%	1. compile the c files using the following lines
+%       mex -O CalculateCoefficient_f3t4_Transt_1_Mex.c
+%       mex -O SolvePolynomial_Sturm_Mex.c sturm.c util.c
+%       mex -O Solvef_f3t4_Transt_1_Mex.c
+%       mex -O SolveCubic_Real_Mex.c
+%   2. run the following scripts directly for experiments
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Scripts to reproduce the numerical stability 
+% main_pnpf_sensitivity_4point:     Fig.2(a)
+% main_pnpf_sensitivity_npoint:     Fig.2(b)
+% main_pnpf_sensitivity_4point_sota: Fig.2(c)
+
+% Scripts to reproduce the experiments with noise:
+% main_pnpf_xpt_ordinary_3d: 	Corresponding to Fig.3, 1st row.
+% main_pnpf_xpt_planar:         Corresponding to Fig.3, 2nd row.
+% main_pnpf_noise_ordinary_3d:  Corresponding to Fig.4, 1st row.
+% main_pnpf_noise_near_planar:  Corresponding to Fig.4, 2nd row.
+
+% Scripts for experiments with RANSAC:
+% main_pnpf_ransac_4point_0:     Fig.5(a)
+% main_pnpf_ransac_4point_1:     Fig.5(b)
+% main_pnpf_ransac_4point_2:     Fig.5(c)
+
+% Scripts for running time
+main_pnpf_time:     Fig.6
+
+
+
+

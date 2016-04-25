@@ -1,0 +1,13 @@
+function ordered_equations= generate_ordered_list_of_equations(n_samples, load_order_data, equation_strategy)
+
+switch equation_strategy
+    case 1
+        ordered_equations= generate_ordered_list_of_equations1(n_samples, load_order_data);
+    otherwise
+end
+
+
+    filename = 'data/upnp_equation_order_data1.mat';
+    
+        load(filename,'ordered_equations');
+        return;
